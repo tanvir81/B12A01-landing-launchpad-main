@@ -10,16 +10,11 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
-/* .btn-primary {
-  background-color: #fd6e0a;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  color: white;
-  font-size: 20px;
-  padding: 18px 35px;
-} */
-/* shered styled */
+
+.dark-3 {
+  color: #757575;
+}
+/* shered styled end*/
 
 /* Header Section */
 
@@ -64,4 +59,26 @@ body {
   font-size: 65px;
   font-weight: 700;
   margin: 0 0 37px 0;
+}
+/* Action Section */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 116px 160px 0 140px;
+}
+.banner-profile-pic img {
+  border-radius: 48px;
+}
+.action-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+.action-content p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+.action-content {
+  max-width: 536px;
 }
