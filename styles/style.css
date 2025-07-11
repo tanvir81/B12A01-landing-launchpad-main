@@ -39,13 +39,29 @@ body {
 .header {
   background-image: url("../Assets/Hero-bg.png");
 }
-.btn-header {
+.btn-primery {
   background-color: #4e47ff;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: white;
   font-size: 16px;
   padding: 12px 36px;
+  line-height: 150%;
+}
+
+/* Header Banner Patt */
+.banner {
+  padding: 309px 267.5px 152px 267.5px;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 65px;
+  font-weight: 700;
+}
+.banner-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  margin: 0 0 37px 0;
 }
