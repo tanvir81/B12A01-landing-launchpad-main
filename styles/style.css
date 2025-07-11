@@ -10,6 +10,9 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+main {
+  margin: 116px 160px 0 140px;
+}
 
 .dark-3 {
   color: #757575;
@@ -65,7 +68,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 116px 160px 0 140px;
 }
 .banner-profile-pic img {
   border-radius: 48px;
@@ -81,4 +83,36 @@ body {
 }
 .action-content {
   max-width: 536px;
+}
+/* User Section */
+.users-title {
+  text-align: center;
+}
+.users-title h3 {
+  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+.user-info-main {
+  display: flex;
+  justify-content: space-around;
+}
+.Productive-Users {
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  margin-top: 116px;
+  padding: 50px 142px;
+}
+.user-info h1 {
+  color: #4e47ff;
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  margin: 40px 0px 0px 0px;
+}
+.user-info {
+  text-align: center;
+}
+.user-info p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
 }
