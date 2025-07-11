@@ -6,7 +6,7 @@
 
 /* Shared style */
 body {
-  /* max-width: 1440px; */
+  max-width: 1440px;
   margin: 0 auto;
   background-color: #efeffb;
 }
@@ -25,7 +25,6 @@ main {
   justify-content: space-between;
   align-items: center;
   margin: 0px 150px;
-  /* max-width: 1440px; */
 }
 .logo {
   font-family: "Inter", sans-serif;
