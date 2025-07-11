@@ -1,7 +1,6 @@
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
   font-style: normal;
 }
 
@@ -18,7 +17,6 @@ main {
 .dark-3 {
   color: #757575;
 }
-/* shered styled end*/
 
 /* Header Section */
 
@@ -271,4 +269,53 @@ label {
   font-size: 16px;
   padding: 19px 201px;
   line-height: 150%;
+}
+/* footer  */
+
+footer {
+  max-width: 1440px;
+  margin: 116px 160px 0 140px;
+}
+.container {
+  padding: 0 0 104px 0;
+}
+.logo-with-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-logo {
+  font-family: "Inter", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  color: #2720dd;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-msg {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  max-width: 521px;
+  margin: 20px 0;
+  color: #787878;
+}
+
+.link-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 2px;
+}
+.link-list ul li a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: #787878;
+  font-size: 20px;
 }
